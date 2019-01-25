@@ -1,21 +1,18 @@
 "use strict"
 
 
-;(function loaded(global){
+;(function loaded(monika){
+  // monika = 
+  // { Game: class
+  // , classes: {Intro, EvenConsonants, …}
+  // , layouts: {Digits, Words, ...}
+  // , levelOptions: {"1": {...}, ...}
+  // , levels: {}
+  // , media: {}
+  // }
 
 
-  let jazyx = global.jazyx
-
-  if (!jazyx) {
-    jazyx = global.jazyx = {}
-  }
-
-  if (!(jazyx.classes)) {
-    jazyx.classes = {}
-  }
- 
-
-  const STORAGE_NAME = "jazyx_menu"
+  const STORAGE_NAME = "monika"
 
 
   class Menu {
@@ -71,60 +68,6 @@
       } else {
         this.showActiveLevel(0)
       }
-    }
-
-
-    injectHTML() {
-      let html = `
-      <nav>
-        <input type="checkbox" name="menu" id="menu" value="">
-        <label for="menu">
-          <svg version="1.1"
-           xmlns="http://www.w3.org/2000/svg"
-           xmlns:xlink="http://www.w3.org/1999/xlink"
-           width="44.775px"
-           height="44.775px" 
-           viewBox="0 0 44.775 44.775"
-           >
-            <g>
-              <g>
-                <path d="
-                  M39.777,2.388
-                  H5
-                  c-2.761, 0-5, 2.238-5, 5
-                  s2.239, 5, 5, 5
-                  h34.775
-                  c2.762, 0, 5-2.238, 5-5
-                  S42.538,2.388,39.777,2.388
-                  z"/>
-                <path d="
-                  M27.777,17.388
-                  H5
-                  c-2.761,0-5,2.238-5,5
-                  c0,2.762,2.239,5,5,5
-                  h22.775
-                  c2.762,0,5-2.238,5-5
-                  C32.775,19.625,30.538,17.388,27.777,17.388
-                  z"/>
-                <path d="
-                  M14.777,32.388
-                  H5
-                  c-2.761,0-5,2.238-5,5
-                  s2.239,5,5,5
-                  h9.776
-                  c2.761,0,5-2.238,5-5S17.538,32.388,14.777,32.388
-                  z"/>
-              </g>
-            </g>
-          </svg>
-        </label>
-        <section>
-          <ul>
-            <li class="active"><a href="qr">qr</a></li>
-            <li disabled><a href="biblio">Bibliography</a></li> 
-          </ul>
-        </section>
-      </nav>`
     }
 
 
@@ -562,7 +505,7 @@
   }
 
 
-  jazyx.menu = new Menu()
-  jazyx.menu.initialize()
+  monika.menu = new Menu()
+  monika.menu.initialize()
 
-})(window)
+})(window.monika)
