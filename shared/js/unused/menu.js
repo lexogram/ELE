@@ -19,7 +19,7 @@
 
 
   class Menu {
-    constructor () {
+    constructor () {      
       this.level = 1
       this.levelInstance = null // will be instance of level class
       this.levelTarget = null   // will be button touched on menu

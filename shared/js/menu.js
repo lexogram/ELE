@@ -1,42 +1,50 @@
 "use strict"
 
 
-;(function loaded(monika){
-  // monika = 
-  // { Game: class
-  // , classes: {Intro, EvenConsonants, …}
-  // , layouts: {Digits, Words, ...}
-  // , levelOptions: {"1": {...}, ...}
-  // , levels: {}
-  // , media: {}
-  // }
+;(function loaded(global){
 
 
-  const STORAGE_NAME = "monika"
+  let jazyx = global.jazyx
+
+  if (!jazyx) {
+    jazyx = global.jazyx = {}
+  }
+
+  if (!(jazyx.classes)) {
+    jazyx.classes = {}
+  }
+ 
+
+  const STORAGE_NAME = "jazyx_menu"
+  
+  function log () {
+    console.log(...arguments)
+  }
 
 
   class Menu {
-    constructor () {
-      this.level = 1
-      this.levelInstance = null // will be instance of level class
-      this.levelTarget = null   // will be button touched on menu
-      this.menu = document.querySelector( 'nav section' )
+    constructor () { 
+      this.injectHTML() // sets this.menu
+
+      // this.level = 1
+      // this.levelInstance = null // will be instance of level class
+      // this.levelTarget = null   // will be button touched on menu
+      // this.menu = document.querySelector( 'nav section' )
+     
       this.check = document.querySelector( 'input[type=checkbox]' )
       this.links = [].slice.call(document.querySelectorAll("nav a"))
-      this.localData = this.readLocalData()
+      // this.localData = this.readLocalData()
 
       // Mouse events
       {
-        let touchLevel = this.touchLevel.bind(this)
-        this.menu.addEventListener("mousedown", touchLevel, false)
-        // this.menu.addEventListener("touchstart", touchLevel, false)
+        let touchLink = this.touchLink.bind(this)
+        this.menu.addEventListener("mousedown", touchLink, false)
 
         // Don't let movable label appear when user drags on link
         this.menu.ondragstart = function() { return false; }
 
         let closeMenu = this.closeMenu.bind(this)
         document.body.addEventListener("mousedown", closeMenu, false)
-        // document.body.addEventListener("touchstart", closeMenu, false)
       }
     }
 
@@ -46,40 +54,134 @@
 
     // Called automatically immediately after constructor()
     initialize() {
-      let level = parseInt(window.location.hash.substring(1), 10) || 0
-      let force = /[?&]force$/.test(window.location.href)
-      let bestLevel = this.bestLevel()
+      // let level = parseInt(window.location.hash.substring(1), 10) || 0
+      // let force = /[?&]force$/.test(window.location.href)
+      // let bestLevel = this.bestLevel()
 
-      if (force) {
-        if (level > 0) {
-          if (this.localData.levelsPlayed.indexOf(level) < 0) {
-            this.level = level
-            this.unlockLevel(level)
-            this.showActiveLevel(level)
-          }
-        }
+      // if (force) {
+      //   if (level > 0) {
+      //     if (this.localData.levelsPlayed.indexOf(level) < 0) {
+      //       this.level = level
+      //       this.unlockLevel(level)
+      //       this.showActiveLink(level)
+      //     }
+      //   }
 
-      } else {
-        level = Math.min(level, bestLevel)
-      }
+      // } else {
+      //   level = Math.min(level, bestLevel)
+      // }
 
-      if (level) {
-        this.setLevel(level, { dontStart: true })
-      } else {
-        this.showActiveLevel(0)
-      }
+      // if (level) {
+      //   this.setLevel(level, { dontStart: true })
+      // } else {
+      //   this.showActiveLink(0)
+      // }
     }
 
 
+    injectHTML() {
+      this.addNav()
+      this.addClass()
+    }
+
+
+    addNav() {
+      let sections = [].slice.call(document.querySelectorAll("section"))
+     
+      let body = document.body
+      let nav = document.createElement("nav")
+      let checkbox = document.createElement("input")
+      let label = document.createElement("label")
+      let section = document.createElement("section")
+      let ul = document.createElement("ul")
+      let svg = `
+        <svg version="1.1"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="44.775px"
+         height="44.775px" 
+         viewBox="0 0 44.775 44.775"
+         >
+          <g>
+            <g>
+              <path d="
+                M39.777,2.388
+                H5
+                c-2.761, 0-5, 2.238-5, 5
+                s2.239, 5, 5, 5
+                h34.775
+                c2.762, 0, 5-2.238, 5-5
+                S42.538,2.388,39.777,2.388
+                z"/>
+              <path d="
+                M27.777,17.388
+                H5
+                c-2.761,0-5,2.238-5,5
+                c0,2.762,2.239,5,5,5
+                h22.775
+                c2.762,0,5-2.238,5-5
+                C32.775,19.625,30.538,17.388,27.777,17.388
+                z"/>
+              <path d="
+                M14.777,32.388
+                H5
+                c-2.761,0-5,2.238-5,5
+                s2.239,5,5,5
+                h9.776
+                c2.761,0,5-2.238,5-5S17.538,32.388,14.777,32.388
+                z"/>
+            </g>
+          </g>
+        </svg>`
+
+      checkbox.type = "checkbox"
+      checkbox.id = "menu"
+
+      label.htmlFor = checkbox.id
+      label.innerHTML = svg
+
+      nav.appendChild(section)
+      section.appendChild(checkbox)
+      section.appendChild(label)
+      section.appendChild(ul)
+
+      sections.forEach((section) => {
+        let id = section.id
+        let name = section.dataset.name
+
+        if (id && name) {
+          let li = document.createElement("li")
+          let a = document.createElement("a")
+          li.appendChild(a)
+          a.href = "#" + id
+          a.innerText = name
+
+          ul.appendChild(li)
+        }
+      })
+      
+      body.insertBefore(nav, body.childNodes[0]) 
+      this.menu = section
+    }
+
+
+    addClass() {
+      let link = document.createElement("link")
+      link.href = "../shared/css/menu.css"
+      link.type = "text/css"
+      link.rel = "stylesheet"
+      document.getElementsByTagName("head")[0].appendChild(link)
+    }
+
     /**
      * Sent by setLevel if dontStart is true. Highlights the
-     * appropriate level in the menu and slides the menu open.
+     * current link in the menu and slides the menu open.
      *
      * @param      {<type>}  level    The level
      * @param      {<type>}  options  The options
      */
-    openMenu(level, options) {
-      this.showActiveLevel(level, options)
+    openMenu(linkIndex, options) {
+      this.showActiveLink(linkIndex, options)
       this.check.checked = true
     }
 
@@ -102,7 +204,7 @@
 
 
     // Called by mousedown|touchstart on the menu
-    touchLevel(event) {
+    touchLink(event) {
       let target = event.target
 
       while (target && target.nodeName !== "A") {
@@ -134,7 +236,7 @@
     }
 
 
-    // Called by a mouseup|touchend, as set in touchLevel
+    // Called by a mouseup|touchend, as set in touchLink
     selectLevel(event) {
       let scrollTop = this.getSectionScrollTop(this.levelTarget)
 
@@ -208,7 +310,7 @@
             this.levelInstance = levelInstance.initialize(levelOptions)
 
             this.unlockLevel(intLevel)
-            this.showActiveLevel(intLevel, options)
+            this.showActiveLink(intLevel, options)
             monika.customKeyboard.close()
             monika.timer.stop("reset")
 
@@ -272,7 +374,7 @@
      *                                     the previous level into
      *                                     view
      */
-    showActiveLevel(levelIndex, options = {}) {
+    showActiveLink(linkIndex, options = {}) {
       let list             = document.querySelectorAll("nav li")
       let scrollToPrevious = options.scrollToPrevious
       let bestLevel        = this.bestLevel()
@@ -280,7 +382,7 @@
       if (isNaN(scrollToPrevious)) {
         scrollToPrevious = false
       } else if (scrollToPrevious !== false) {
-        scrollToPrevious = levelIndex - 1 // a number from 0 up
+        scrollToPrevious = linkIndex - 1 // a number from 0 up
       }
 
       // Note special treatment below to deal with this particularity:
@@ -293,7 +395,7 @@
         let li = list[ii++]
         // ii is now equal to the level for the li element
 
-        if (ii === levelIndex) {
+        if (ii === linkIndex) {
           li.classList.add("active")
 
           if (scrollToPrevious === false) {
@@ -374,7 +476,7 @@
     }
 
 
-    // Called by initialize and showActiveLevel
+    // Called by initialize and showActiveLink
     bestLevel() {
       let unlocked = this.localData.levelsPlayed
       let bestLevel = Math.max.apply(null, unlocked)
@@ -433,7 +535,7 @@
 
     // Called by showReference and also by toggleType in layout/reference.js
     displayRef(hash, dontScrollPage) {
-      this.showActiveLevel(0) // doesn't change this.level
+      this.showActiveLink(0) // doesn't change this.level
 
       this.setLevel(hash.substring(1), { dontScroll: dontScrollPage })
       this.setRefDisplay(hash)
@@ -505,7 +607,7 @@
   }
 
 
-  monika.menu = new Menu()
-  monika.menu.initialize()
+  jazyx.menu = new Menu()
+  jazyx.menu.initialize()
 
-})(window.monika)
+})(window)

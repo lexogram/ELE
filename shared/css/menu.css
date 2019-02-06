@@ -1,0 +1,12 @@
+nav input {
+  position: absolute;
+  /*left: -99px;*/
+}
+
+nav section {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  background-color: rgba(221, 221, 221, 0.9)
+}
