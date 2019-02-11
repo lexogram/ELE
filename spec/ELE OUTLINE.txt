@@ -1,7 +1,8 @@
 ELE OUTLINE
 
 Silver Chair
-  Metaphors, emotions and memory
+  Metaphors, models, emotions and memory
+
 
 
 Like a ... computer
@@ -17,6 +18,9 @@ Like a ... computer
   CAPTCHA
 
 Intelligence
+  Brain illusions
+  Prediction engine
+  Reaction times
 
 
 Emotions
@@ -26,7 +30,10 @@ Life & non-life
 
 
 AI, robots, 
+  The computer in the Apollo 11 spacecraft that landed on the moon 50 years ago was less powerful than the computer in your washing machine today.
   CAPTCHAs used to teach computers to be like humans
+
+  Weapons of Math Destruction
 
 
 

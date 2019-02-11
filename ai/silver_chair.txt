@@ -1,58 +1,163 @@
-when I was a child, there were two things that terrified me. One was to look up into space and realize that I am just a tiny, tiny, infinitessimally tiny dot of consciousness in a unimaginably huge universe. And the Lady of the Green Girtle, in a story called The Silver Chair, the fourth of the Narnia Chronicles.
+01  SILVER CHAIR
+    ————————————
 
-Prince Rillian has been captured by a beautiful witch, and is imprisened in the Underworld — a dark labyrinth of tunnels deep under the ground. The witch has cast a spell on him, so that he has forgotten everything about his past, and he believes that she is the kindest, most loving woman possible, and that the Underworld is all that exists. Then two children find their way into the Underworld, discover Prince Rillian, and break the spell, so he remembers everything... which spoils the beautiful witch's plans. When she finds them all together, she starts to create a new spell, playing on a mandolin, and tries to convince Prince Rillian that his memories of the Overworld — the grass, the trees, the sky, the sun — all this is just a dream.
+    When I was a child, there were two things that terrified me. One was to look up into space and realize that I am just a tiny, tiny, infinitessimally tiny dot of consciousness in a unimaginably huge universe. And the Lady of the Green Girtle, in a story called The Silver Chair, the fourth of the Narnia Chronicles.
 
-Let me read an edited version to you:
+    Prince Rillian has been captured by a beautiful witch, and is imprisened in the Underworld — a dark labyrinth of tunnels deep under the ground. The witch has cast a spell on him, so that he has forgotten everything about his past, and he believes that she is the kindest, most loving woman possible, and that the Underworld is all that exists. Then two children find their way into the Underworld, discover Prince Rillian, and break the spell, so he remembers everything... which spoils the beautiful witch's plans. When she finds them all together, she starts to create a new spell, playing on a mandolin, and tries to convince Prince Rillian that his memories of the Overworld — the grass, the trees, the sky, the sun — all this is just a dream.
 
-  "What is this sun that you all speak of? Can you tell me what it's like?" asked the Witch (thrum, thrum, thrum, went the strings of her magic mandolin).
+    Let me read an edited version to you:
 
-  "Please it your Grace," said the Prince, very coldly and politely. "You see that lamp. It is round and yellow and it hangs from the roof and gives light to the whole room. Now that thing which we call the sun is like the lamp, only far greater and brighter. It gives light to the whole Overworld and hangs in the sky."
+      "What is this sun that you all speak of? Can you tell me what it's like?" asked the Witch (thrum, thrum, thrum, went the strings of her magic mandolin).
 
-  "Hangs from what, my lord?" asked the Witch; and then she added, with another of her soft, silver laughs: "You see? When you try to think out clearly what this sun must be, you cannot tell me. You can only tell me it is like the lamp. Your sun is a dream; and there is nothing in that dream that was not copied from the lamp. The lamp is the real thing; the sun is but a tale, a children's story."
+      "Please it your Grace," said the Prince, very coldly and politely. "You see that lamp. It is round and yellow and it hangs from the roof and gives light to the whole room. Now that thing which we call the sun is like the lamp, only far greater and brighter. It gives light to the whole Overworld and hangs in the sky."
 
-  "Yes, I see now," said the Prince in a heavy, hopeless tone. "It must be so."
+      "Hangs from what, my lord?" asked the Witch; and then she added, with another of her soft, silver laughs: "You see? When you try to think out clearly what this sun must be, you cannot tell me. You can only tell me it is like the lamp. Your sun is a dream; and there is nothing in that dream that was not copied from the lamp. The lamp is the real thing; the sun is but a tale, a children's story."
 
-How this terrified me at the age of 10! The thought that there is no way to describe anything except by comparing it to something else. That every word only has a meaning in relation to other words that have different meanings. That meaning doesn't live in words, but in the tensions and pressures that other words apply to them.
+      "Yes, I see now," said the Prince in a heavy, hopeless tone. "It must be so."
 
-Have you ever said the same word over and over and over again, until it becomes meaningless, just a sound?
+    I clearly remember how this terrified me at the age of 10! The thought that there is no way to describe anything except by comparing it to something else. There's no way to be sure that life is not an illusion. And this was thirty years before The Matrix.
 
-The words "sun" and "lamp" — if you look at each word by itself, its meaning vanishes. 
+02  LIKE A ... models, metaphors, memory and emotions
+    —————————————————————————————————————————————————
 
-One thing I love about learning Russian, is that the metaphors you use, the pressures and tensions between words, are all different. The mind map that you use to create meanings is different from English. Having two mind maps that overlap makes the gaps what I can say and understand smaller, and finer, and safer.
+    But what has this got to do with artificial intelligence? I'm coming to that.
 
-We think in metaphors.
+    But here ar four words that I will use often: metaphors, models, memory and emotions. 
 
-No: the only way we can express our thoughts is through metaphors.
 
-Conscious thoughts occupy a very small part of our brain and nervous system. Our heart beats, our gut digests, our lungs pump without our thinking about it.
+03  BINET
+    —————
 
-And our brains deceive us. Here's a test for you. Take out your smartphones and Google for "reaction time test". The first hit should be:
+    If we want to say that a machine has intelligence like a human's, first we need to say what human intelligence is. It's difficult to find a good definition. The first tests for measuring intelligence were devised by Alfred Binet, just over 100 years ago. When asked "What is intelligence?", Binet answered "It's what my tests measure."
 
-reaction time test
-https://www.humanbenchmark.com/tests/reactiontime/
+    "There seem to be almost as many definitions of intelligence as there were experts asked to define it.” — R. J. Sternberg Professor of Human Development, Cornell University
 
-Go ahead: take the test. Tap the screen to start: the screen will go red. Hold your finger as close to the screen as possible without actually touching it. When the screen goes green, tap immediately. Or not so immediately. My best time is 284 milliseconds.
+04  MULITPLE INTELLIGENCE
+    —————————————————————
 
-Who got the lowest score?
+    https://69.media.tumblr.com/6377d0e5f13aeeffa9e8cabb6a19cb9f/tumblr_nj7w73Rpl21qfvq9bo1_r1_1280.jpg
 
-Let's say 250 milliseconds, a quarter of a second, or 1/240th of a minute. What does 250 milliseconds sound like?
+    Some, like (Howard Gardner)[http://multipleintelligencesoasis.org], propose that there are multiple intelligences, such as verbal, mathematical, musical and interpersonal. 
 
-https://www.imusic-school.com/en/tools/online-metronome/
+05  g FACTOR
+    ————————
 
-It's a considerable chunk of time. You can clap faster than 4 times a second. Yes?
+    Others, like Arthur Jensen, say that there is a high degree of of correlation between the results of all the different kinds of intelligence tests, and so that there is one ("general intelligence")[https://en.wikipedia.org/wiki/G_factor_(psychometrics)], or "g", that explains how successful people are in achieving their goals.
 
-Why does it take so long? Your brain sees the change in colour, does some processing, and sends a signal to your finger to move. The signal is sent by electrical impulses. It takes about 200 milliseconds for the signal to travel from your brain to your finger.
+    http://www.psych.utoronto.ca/users/reingold/courses/intelligence/cache/1198gottfred_table.gif
 
-Now touch the tip of your nose with the tip of your index finger.
+06  g FACTOR QUOTES
+    ———————————————
 
-Tk - tk
+    What's nice about the "g factor" theory is that it is measured with a single number, and it suggests that it can be explained in simple terms:
 
-Did you feel it? The neural path from your nose to your brain is much shorter than the path from your finger to your brain. The signal telling your brain that your finger touched your nose arrives about 200 milliseconds after the signal that says that your nose was touched by your finger.
+      g is closely linked to the ability to learn novel material and understand concepts and meanings.
+      Arthur Jensen
 
-Tk - tk.
+      Intelligence [is] the ability to deal with complexity.
+      Linda S. Gottfredson, professor of educational studies at the University of Delaware
 
-Did you feel it? Did you feel the two signals arriving at different times?
+      Intelligence measures an agent’s ability to achieve goals in a wide range of environments — (Hutter and Legg)[https://arxiv.org/abs/0712.3329]
 
-No. Your brain deceives you. It receives the signals at different times, but it tells you — the conscious you — about the signals only after it has received both.
+    One point of agreement between the two groups is that the correlations between measurements of different types of intelligence get stronger at the lower end of the scale. For example, people with limited skills in their native language, tend to be weaker in mathematics, social skills and musical ability. At the other end of the scale, people with a very high "g" score may be brilliant in one domain but relatively hopeless in another.
 
-You can't trust your brain.
+    There is also general agreement that intelligence is not fixed. Amongs other things, this means that the more words you learn, the better you are able to achieve your goals.
+
+    Which is one of the reasons you are all here this evening. If I can teach you something new tonight, then you'll also be learning new words that help you remember and make sense of what you have learned.
+
+07  Кататься and ROLL
+    —————————————————
+
+    Shall we test that? Here's an image of things that are apparently very different. If you can find one word that connects all these things, the image will be much more meaningful to you, and you will be able to remember the whole list of different things more easily.
+
+    Has anyone any ideas of what word you could use?
+
+    OK, here's another set of images. And this time, the word that you are looking for is in Russian.
+
+    And to help you, one of these extra images is part of the set, and the other is not.
+
+
+    Computers are designed by humans, and human brains have evolved. The brains we use today to design computers 
+    Words have extraordinary power to shape our awareness    
+
+    https://www.textosenlinea.com.ar/libros/Lakoff%20y%20Johnson%20-%20Metaphors%20We%20Live%20By%20-%201980.pdf
+
+      [Consider] the metaphor Affection Is Warmth (as in, "He's a warm person." or "She's a block of ice.") arises from the common experience of a child being held affectionately by a parent; here, affection occurs together with warmth ... There is neuronal activation occurring simultaneously in two separate parts of the brain: those devoted to emotions and those devoted to temperature. As the saying goes in
+      neuroscience, "Neurons that fire together wire together."
+
+      Metaphor is a neural phenomenon.
+
+      http://www2.iath.virginia.edu/sixties/HTML_docs/Texts/Scholarly/Lakoff_Gulf_Metaphor_1.html
+
+      Reality exists. So does the unconscious system of metaphors that we use without awareness to comprehend reality. What metaphor does is limit what we notice, highlight what we do see, and provide part of the inferential structure that we reason with.
+
+03  Measuring intelligence
+    ——————————————————————
+
+    If we want to say that a machine has intelligence like a human's, first we need to say what human intelligence is. The first tests for measuring intelligence were devised by Alfred Binet, just over 100 years ago. When asked "What is intelligence?", Binet answered "It's what my tests measure."
+
+    Technology is allowing us to look closer and closer at the details of how the human brain works, and paradoxically, we discover that behind each answer that we find with hides more, and more difficult, questions.
+
+    David Bohm, who developed one of the leading theories in quantum physics said (I paraphrase):
+
+      Our senses give us information about the world, but that information is processed by the mind, by our thoughts. We assume that we decide what to do with the information. But ... you don't decide ... The information takes over. It runs you. Thought runs you... [and at the same time] gives the false information that you are running it.
+
+      The general tacit assumption in thought is that [your thoughts are] just telling you the way things are and that is not doing anything—that 'you' are inside there, deciding what to do with the information. But I want to say that you don't decide what to do with the information. The information takes over. It runs you. Thought runs you. Thought, however, gives the false information that you are running it, that you are the one who controls thought, whereas actually thought is the one which controls each one of us.
+
+      Thought is the tool we use to solve every kind of problem: personal, social, scientific, and so on. But thought is also the source of many of those problems. Do you see the irony of the situation? It is as if you get sick by going to the doctor.
+
+    Our brains have evolved to help our ancestors survive in a different kind of environment. Our brains don't need to understand the nature of space, time and matter for us to find our next meal and a mate. Our thoughts are limited and distorted by the ramshackle structure of our brain, and so it is very hard for us to use thought to understand where those limits and distortions are.
+
+    Let's start with looking at how words work.
+
+
+XX  TURING TEST
+    ———————————
+
+    In 1950, Alan Turing asked the question: "Can machines think?" In an attempt to answer the question he proposed what he called "The Imitation Game". 
+
+99  UNUSED
+    That every word only has a meaning in relation to other words that have different meanings. That meaning doesn't live in words, but in the tensions and pressures that other words apply to them.
+
+    Have you ever said the same word over and over and over again, until it becomes meaningless, just a sound?
+
+    The words "sun" and "lamp" — if you look at each word by itself, its meaning vanishes. 
+
+    One thing I love about learning Russian, is that the metaphors you use, the pressures and tensions between words, are all different. The mind map that you use to create meanings is different from English. Having two mind maps that overlap makes the gaps what I can say and understand smaller, and finer, and safer.
+
+    We think in metaphors.
+
+    No: the only way we can express our thoughts is through metaphors.
+
+    Conscious thoughts occupy a very small part of our brain and nervous system. Our heart beats, our gut digests, our lungs pump without our thinking about it.
+
+    And our brains deceive us. Here's a test for you. Take out your smartphones and Google for "reaction time test". The first hit should be:
+
+    reaction time test
+    https://www.humanbenchmark.com/tests/reactiontime/
+
+    Go ahead: take the test. Tap the screen to start: the screen will go red. Hold your finger as close to the screen as possible without actually touching it. When the screen goes green, tap immediately. Or not so immediately. My best time is 284 milliseconds.
+
+    Who got the lowest score?
+
+    Let's say 250 milliseconds, a quarter of a second, or 1/240th of a minute. What does 250 milliseconds sound like?
+
+    https://www.imusic-school.com/en/tools/online-metronome/
+
+    It's a considerable chunk of time. You can clap faster than 4 times a second. Yes?
+
+    Why does it take so long? Your brain sees the change in colour, does some processing, and sends a signal to your finger to move. The signal is sent by electrical impulses. It takes about 200 milliseconds for the signal to travel from your brain to your finger.
+
+    Now touch the tip of your nose with the tip of your index finger.
+
+    Tk - tk
+
+    Did you feel it? The neural path from your nose to your brain is much shorter than the path from your finger to your brain. The signal telling your brain that your finger touched your nose arrives about 200 milliseconds after the signal that says that your nose was touched by your finger.
+
+    Tk - tk.
+
+    Did you feel it? Did you feel the two signals arriving at different times?
+
+    No. Your brain deceives you. It receives the signals at different times, but it tells you — the conscious you — about the signals only after it has received both.
+
+    You can't trust your brain.
